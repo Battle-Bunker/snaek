@@ -4,7 +4,7 @@
 		hazard?: boolean;
 	}
 
-	let { food = false, hazard = true }: Props = $props();
+	let { food = false, hazard = false }: Props = $props();
 </script>
 
 <div class={['square', hazard && 'hazard']}>

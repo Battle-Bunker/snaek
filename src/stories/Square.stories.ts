@@ -18,14 +18,14 @@ export const Food: Story = {
 	}
 };
 
-export const hazard: Story = {
+export const Hazard: Story = {
 	args: {
 		food: false,
 		hazard: true
 	}
 };
 
-export const hazardFood: Story = {
+export const FoodHazard: Story = {
 	args: {
 		food: true,
 		hazard: true
