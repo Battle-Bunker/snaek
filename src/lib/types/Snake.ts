@@ -1,6 +1,6 @@
-import type Coordinate from '$lib/types/Coordinate';
+import type { Coordinate } from '$lib/types/Coordinate';
 
-export default interface Snake {
+export interface Snake {
 	id: string;
 	name: string;
 	body: Coordinate[];

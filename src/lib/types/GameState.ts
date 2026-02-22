@@ -1,7 +1,7 @@
-import type Snake from '$lib/types/Snake';
-import type Coordinate from '$lib/types/Coordinate';
+import type { Snake } from '$lib/types/Snake';
+import type { Coordinate } from '$lib/types/Coordinate';
 
-export default interface GameState {
+export interface GameState {
 	turn: number;
 	width: number;
 	height: number;
