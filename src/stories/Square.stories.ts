@@ -14,18 +14,18 @@ export const Empty: Story = {};
 export const explicitEmpty: Story = {
 	name: 'Explicit Empty',
 	args: {
-		content: 'empty'
+		contents: 'empty'
 	}
 };
 
 export const Food: Story = {
 	args: {
-		content: 'food'
+		contents: 'food'
 	}
 };
 
 export const hazard: Story = {
 	args: {
-		content: 'hazard'
+		contents: 'hazard'
 	}
 };

@@ -1,9 +1,9 @@
 <script lang="ts">
 	interface Props {
-		content?: 'empty' | 'food' | 'hazard';
+		contents?: 'empty' | 'food' | 'hazard';
 	}
 
-	let { content = 'empty' }: Props = $props();
+	let { contents = 'empty' }: Props = $props();
 </script>
 
 <div class="square"></div>
