@@ -30,7 +30,7 @@
 		height: 3em;
 		border-radius: 100%;
 		background: #fd6b6b;
-		box-shadow: 4px 4px #444;
+		box-shadow: 4px 4px #444a;
 	}
 
 	.hazard {
