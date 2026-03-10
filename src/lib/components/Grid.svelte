@@ -17,8 +17,14 @@
 	let grid: NiceGrid = $derived(convertToGrid(width, height, food, hazards));
 </script>
 
-{#each grid as row (row)}
-	{#each row as cell (cell)}
-		<Cell {...cell}></Cell>
-	{/each}
-{/each}
+<table>
+	<tbody>
+		{#each grid as row (row)}
+			<tr>
+				{#each row as cell (cell)}
+					<th><Cell {...cell}></Cell></th>
+				{/each}
+			</tr>
+		{/each}
+	</tbody>
+</table>

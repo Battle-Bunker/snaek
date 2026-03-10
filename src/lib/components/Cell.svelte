@@ -18,22 +18,22 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 5em;
-		height: 5em;
-		border-radius: 1em;
+		width: 4rem;
+		height: 4rem;
+		border-radius: 1rem;
 		background: #555;
-		margin: 2px;
+		margin: 1px;
 	}
 
 	.food {
-		width: 3em;
-		height: 3em;
+		width: 2.5rem;
+		height: 2.5rem;
 		border-radius: 100%;
 		background: #fd6b6b;
 		box-shadow: 4px 4px #444a;
 	}
 
 	.hazard {
-		background: #970202;
+		background: #5b0606;
 	}
 </style>
