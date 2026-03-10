@@ -22,7 +22,7 @@
 		height: 4rem;
 		border-radius: 1rem;
 		background: #555;
-		margin: 1px;
+		margin: 0.1rem;
 	}
 
 	.food {
