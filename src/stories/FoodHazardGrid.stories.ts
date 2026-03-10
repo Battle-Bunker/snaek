@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/sveltekit';
 
-import Grid from '$lib/components/Grid.svelte';
+import Grid from '$lib/components/FoodHazardGrid.svelte';
 
 const meta = {
 	component: Grid
