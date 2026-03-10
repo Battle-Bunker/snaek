@@ -22,7 +22,7 @@
 		{#each grid as row (row)}
 			<tr>
 				{#each row as cell (cell)}
-					<th><Cell {...cell}></Cell></th>
+					<td><Cell {...cell}></Cell></td>
 				{/each}
 			</tr>
 		{/each}
