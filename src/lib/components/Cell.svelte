@@ -7,7 +7,7 @@
 	let { food = false, hazard = false }: Props = $props();
 </script>
 
-<div class={['square', hazard && 'hazard']}>
+<div class="square" class:hazard>
 	{#if food}
 		<div class="food"></div>
 	{/if}
